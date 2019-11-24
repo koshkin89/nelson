@@ -1,0 +1,88 @@
+.products_wrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mat-card {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    .inner_roduct {
+        background-color: #2c2c2c;
+        padding: 2em 3em 3.4em;
+        text-align: center;
+        height: 100%;
+        .mat-card-lg-image {
+            + .mat-card-title {
+                padding-top: 25px;
+            }
+        }
+        .mat-card-title {
+            font-family: 'Teko', sans-serif;
+            font-size: 26px;
+            line-height: 1.14em;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+            color: #e1e1e1;
+            transition: all 0.3s;
+            cursor: pointer;
+            &:hover {
+                color: #96885f;
+            }
+        }
+        .mat-card-content {
+           color: #8d8d8d;
+           font-size: 16px;
+           line-height: 26px;
+           font-weight: 400;
+           margin-bottom: 0;
+           padding-top: 20px;     
+        }
+        .mat-card-subtitle  {
+            font-family: 'Teko', sans-serif;
+            font-size: 22px;
+            line-height: 1.14em;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+            color: #96885f;
+        
+        }
+        .mat-card-content {
+            + .mat-card-actions {
+                margin-top: 25px;
+            }
+        }
+        .mat-card-actions {
+            .mat-button {
+                font-family: "Montserrat",sans-serif;
+                font-size: 14px;
+                font-weight: 800;
+                font-style: normal;
+                line-height: 20px;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: all 0.3s;
+                padding: 16px 2.1em;
+                letter-spacing: 0;
+                height: auto;
+                border: 5px solid #96885f;
+                border-radius: 0;
+                cursor: pointer;
+                color: #e1e1e1;
+                background-color: transparent;
+                border-color: #96885f !important;
+                &:hover {
+                    background-color: #96885f !important;
+                }
+            }
+        }
+    }
+}

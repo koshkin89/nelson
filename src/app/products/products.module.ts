@@ -6,6 +6,7 @@ import { SingelProductComponent } from './products-list/single-product/single-pr
 import { CartComponent } from './cart/cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { AddNewProductComponent } from './add-new-product/add-new-product.component';
+import { MaterialModule } from '../shared/material.module';
 
 
 
@@ -17,13 +18,14 @@ import { AddNewProductComponent } from './add-new-product/add-new-product.compon
     SingelProductComponent,
     CartComponent,
     CheckoutComponent,
-    AddNewProductComponent,
+    AddNewProductComponent
   ],
   exports: [
-    ProductsComponent,
+    ProductsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule
   ]
 })
 export class ProductsModule { }
